@@ -1,0 +1,2828 @@
+{
+	"file_path": "C:\\Users\\Adam\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\POW BP\\entities\\drowned.json",
+	"file_type": "entity",
+	"format_version": 1,
+	"file_uuid": "b5ac5e0d_a214_4ffb_bdf5_72c8edfeefc9",
+	"file_version": 0,
+	"cache_content": {
+		"open": true,
+		"comment": "",
+		"data": "",
+		"key": "global",
+		"type": "object",
+		"meta": {},
+		"children": [
+			{
+				"open": false,
+				"comment": "",
+				"data": "1.13.0",
+				"key": "format_version",
+				"type": "string",
+				"meta": {},
+				"children": []
+			},
+			{
+				"open": true,
+				"comment": "",
+				"data": "",
+				"key": "minecraft:entity",
+				"type": "object",
+				"meta": {
+					"expand_path_exceptions": [
+						"do_not_upgrade"
+					]
+				},
+				"children": [
+					{
+						"open": true,
+						"comment": "",
+						"data": "",
+						"key": "description",
+						"type": "object",
+						"meta": {},
+						"children": [
+							{
+								"open": false,
+								"comment": "",
+								"data": "minecraft:drowned",
+								"key": "identifier",
+								"type": "string",
+								"meta": {},
+								"children": []
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "true",
+								"key": "is_spawnable",
+								"type": "boolean",
+								"meta": {},
+								"children": []
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "true",
+								"key": "is_summonable",
+								"type": "boolean",
+								"meta": {},
+								"children": []
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "false",
+								"key": "is_experimental",
+								"type": "boolean",
+								"meta": {},
+								"children": []
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "tags",
+								"type": "array",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "hit",
+										"key": "0",
+										"type": "string",
+										"meta": {},
+										"children": []
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": false,
+						"comment": "",
+						"data": "",
+						"key": "component_groups",
+						"type": "object",
+						"meta": {},
+						"children": [
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:baby_drowned",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "minecraft:experience_reward",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "query.last_hit_by_player ? 12 + (query.equipment_count * Math.Random(1,3)) : 0",
+												"key": "on_death",
+												"type": "string",
+												"meta": {},
+												"children": []
+											}
+										]
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "minecraft:is_baby",
+										"type": "object",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "minecraft:scale",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "0.5",
+												"key": "value",
+												"type": "number",
+												"meta": {},
+												"children": []
+											}
+										]
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "minecraft:movement",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "0.25",
+												"key": "value",
+												"type": "number",
+												"meta": {},
+												"children": []
+											}
+										]
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "minecraft:underwater_movement",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "0.08",
+												"key": "value",
+												"type": "number",
+												"meta": {},
+												"children": []
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:adult_drowned",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "minecraft:experience_reward",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "query.last_hit_by_player ? 5 + (query.equipment_count * Math.Random(1,3)) : 0",
+												"key": "on_death",
+												"type": "string",
+												"meta": {},
+												"children": []
+											}
+										]
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "minecraft:loot",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "loot_tables/entities/drowned.json",
+												"key": "table",
+												"type": "string",
+												"meta": {},
+												"children": []
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:mode_switcher",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "minecraft:target_nearby_sensor",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "3",
+												"key": "inside_range",
+												"type": "number",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "5",
+												"key": "outside_range",
+												"type": "number",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "on_inside_range",
+												"type": "object",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "minecraft:switch_to_melee",
+														"key": "event",
+														"type": "string",
+														"meta": {},
+														"children": []
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "self",
+														"key": "target",
+														"type": "string",
+														"meta": {},
+														"children": []
+													}
+												]
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "on_outside_range",
+												"type": "object",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "minecraft:switch_to_ranged",
+														"key": "event",
+														"type": "string",
+														"meta": {},
+														"children": []
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "self",
+														"key": "target",
+														"type": "string",
+														"meta": {},
+														"children": []
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "minecraft:equipment",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "loot_tables/entities/drowned_ranged_equipment.json",
+												"key": "table",
+												"type": "string",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "slot_drop_chance",
+												"type": "array",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "",
+														"key": "0",
+														"type": "object",
+														"meta": {},
+														"children": [
+															{
+																"open": false,
+																"comment": "",
+																"data": "slot.weapon.offhand",
+																"key": "slot",
+																"type": "string",
+																"meta": {},
+																"children": []
+															},
+															{
+																"open": false,
+																"comment": "",
+																"data": "1",
+																"key": "drop_chance",
+																"type": "number",
+																"meta": {},
+																"children": []
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:ranged_mode",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "minecraft:shooter",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "minecraft:thrown_trident",
+												"key": "def",
+												"type": "string",
+												"meta": {},
+												"children": []
+											}
+										]
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "minecraft:behavior.ranged_attack",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "3",
+												"key": "priority",
+												"type": "number",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "1",
+												"key": "attack_interval_min",
+												"type": "number",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "3",
+												"key": "attack_interval_max",
+												"type": "number",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "10",
+												"key": "attack_radius",
+												"type": "number",
+												"meta": {},
+												"children": []
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:melee_mode",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "minecraft:attack",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "3",
+												"key": "damage",
+												"type": "number",
+												"meta": {},
+												"children": []
+											}
+										]
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "minecraft:behavior.melee_attack",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "3",
+												"key": "priority",
+												"type": "number",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "1",
+												"key": "speed_multiplier",
+												"type": "number",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "false",
+												"key": "track_target",
+												"type": "boolean",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "true",
+												"key": "require_complete_path",
+												"type": "boolean",
+												"meta": {},
+												"children": []
+											}
+										]
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "minecraft:equipment",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "loot_tables/entities/drowned_equipment.json",
+												"key": "table",
+												"type": "string",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "slot_drop_chance",
+												"type": "array",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "",
+														"key": "0",
+														"type": "object",
+														"meta": {},
+														"children": [
+															{
+																"open": false,
+																"comment": "",
+																"data": "slot.weapon.offhand",
+																"key": "slot",
+																"type": "string",
+																"meta": {},
+																"children": []
+															},
+															{
+																"open": false,
+																"comment": "",
+																"data": "1",
+																"key": "drop_chance",
+																"type": "number",
+																"meta": {},
+																"children": []
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:hunter_mode",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "minecraft:navigation.generic",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "true",
+												"key": "is_amphibious",
+												"type": "boolean",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "false",
+												"key": "can_path_over_water",
+												"type": "boolean",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "true",
+												"key": "can_break_doors",
+												"type": "boolean",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "true",
+												"key": "can_swim",
+												"type": "boolean",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "true",
+												"key": "can_walk",
+												"type": "boolean",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "true",
+												"key": "avoid_sun",
+												"type": "boolean",
+												"meta": {},
+												"children": []
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:wander_mode",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "minecraft:navigation.generic",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "true",
+												"key": "is_amphibious",
+												"type": "boolean",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "false",
+												"key": "can_path_over_water",
+												"type": "boolean",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "true",
+												"key": "can_break_doors",
+												"type": "boolean",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "false",
+												"key": "can_swim",
+												"type": "boolean",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "true",
+												"key": "can_walk",
+												"type": "boolean",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "true",
+												"key": "avoid_sun",
+												"type": "boolean",
+												"meta": {},
+												"children": []
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": false,
+						"comment": "",
+						"data": "",
+						"key": "components",
+						"type": "object",
+						"meta": {},
+						"children": [
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:nameable",
+								"type": "object",
+								"meta": {},
+								"children": []
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:type_family",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "family",
+										"type": "array",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "drowned",
+												"key": "0",
+												"type": "string",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "zombie",
+												"key": "1",
+												"type": "string",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "undead",
+												"key": "2",
+												"type": "string",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "monster",
+												"key": "3",
+												"type": "string",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "mob",
+												"key": "4",
+												"type": "string",
+												"meta": {},
+												"children": []
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:collision_box",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "0.6",
+										"key": "width",
+										"type": "number",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "1.9",
+										"key": "height",
+										"type": "number",
+										"meta": {},
+										"children": []
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:annotation.break_door",
+								"type": "object",
+								"meta": {},
+								"children": []
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:underwater_movement",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "0.06",
+										"key": "value",
+										"type": "number",
+										"meta": {},
+										"children": []
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:movement.generic",
+								"type": "object",
+								"meta": {},
+								"children": []
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:jump.static",
+								"type": "object",
+								"meta": {},
+								"children": []
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:can_climb",
+								"type": "object",
+								"meta": {},
+								"children": []
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:health",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "20",
+										"key": "value",
+										"type": "number",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "20",
+										"key": "max",
+										"type": "number",
+										"meta": {},
+										"children": []
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:hurt_on_condition",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "damage_conditions",
+										"type": "array",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "0",
+												"type": "object",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "",
+														"key": "filters",
+														"type": "object",
+														"meta": {},
+														"children": [
+															{
+																"open": false,
+																"comment": "",
+																"data": "in_lava",
+																"key": "test",
+																"type": "string",
+																"meta": {},
+																"children": []
+															},
+															{
+																"open": false,
+																"comment": "",
+																"data": "self",
+																"key": "subject",
+																"type": "string",
+																"meta": {},
+																"children": []
+															},
+															{
+																"open": false,
+																"comment": "",
+																"data": "==",
+																"key": "operator",
+																"type": "string",
+																"meta": {},
+																"children": []
+															},
+															{
+																"open": false,
+																"comment": "",
+																"data": "true",
+																"key": "value",
+																"type": "boolean",
+																"meta": {},
+																"children": []
+															}
+														]
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "lava",
+														"key": "cause",
+														"type": "string",
+														"meta": {},
+														"children": []
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "4",
+														"key": "damage_per_tick",
+														"type": "number",
+														"meta": {},
+														"children": []
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:movement",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "0.23",
+										"key": "value",
+										"type": "number",
+										"meta": {},
+										"children": []
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:burns_in_daylight",
+								"type": "object",
+								"meta": {},
+								"children": []
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:breathable",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "15",
+										"key": "total_supply",
+										"type": "number",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "0",
+										"key": "suffocate_time",
+										"type": "number",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "true",
+										"key": "breathes_air",
+										"type": "boolean",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "true",
+										"key": "breathes_water",
+										"type": "boolean",
+										"meta": {},
+										"children": []
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:navigation.generic",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "true",
+										"key": "is_amphibious",
+										"type": "boolean",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "false",
+										"key": "can_path_over_water",
+										"type": "boolean",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "true",
+										"key": "can_break_doors",
+										"type": "boolean",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "false",
+										"key": "can_swim",
+										"type": "boolean",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "true",
+										"key": "can_walk",
+										"type": "boolean",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "true",
+										"key": "avoid_sun",
+										"type": "boolean",
+										"meta": {},
+										"children": []
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:behavior.flee_sun",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "2",
+										"key": "priority",
+										"type": "number",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "1",
+										"key": "speed_multiplier",
+										"type": "number",
+										"meta": {},
+										"children": []
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:behavior.stomp_turtle_egg",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "4",
+										"key": "priority",
+										"type": "number",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "1",
+										"key": "speed_multiplier",
+										"type": "number",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "10",
+										"key": "search_range",
+										"type": "number",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "3",
+										"key": "search_height",
+										"type": "number",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "1.14",
+										"key": "goal_radius",
+										"type": "number",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "4",
+										"key": "search_count",
+										"type": "number",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "20",
+										"key": "interval",
+										"type": "number",
+										"meta": {},
+										"children": []
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:behavior.move_towards_restriction",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "5",
+										"key": "priority",
+										"type": "number",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "1",
+										"key": "speed_multiplier",
+										"type": "number",
+										"meta": {},
+										"children": []
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:behavior.random_stroll",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "6",
+										"key": "priority",
+										"type": "number",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "1",
+										"key": "speed_multiplier",
+										"type": "number",
+										"meta": {},
+										"children": []
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:behavior.look_at_player",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "7",
+										"key": "priority",
+										"type": "number",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "6",
+										"key": "look_distance",
+										"type": "number",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "0.02",
+										"key": "probability",
+										"type": "number",
+										"meta": {},
+										"children": []
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:behavior.random_look_around",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "7",
+										"key": "priority",
+										"type": "number",
+										"meta": {},
+										"children": []
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:behavior.hurt_by_target",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "1",
+										"key": "priority",
+										"type": "number",
+										"meta": {},
+										"children": []
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:behavior.nearest_attackable_target",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "2",
+										"key": "priority",
+										"type": "number",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "12",
+										"key": "within_radius",
+										"type": "number",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "true",
+										"key": "reselect_targets",
+										"type": "boolean",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "entity_types",
+										"type": "array",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "0",
+												"type": "object",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "",
+														"key": "filters",
+														"type": "object",
+														"meta": {},
+														"children": [
+															{
+																"open": false,
+																"comment": "",
+																"data": "",
+																"key": "all_of",
+																"type": "array",
+																"meta": {},
+																"children": [
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "",
+																		"key": "0",
+																		"type": "object",
+																		"meta": {},
+																		"children": [
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "",
+																				"key": "any_of",
+																				"type": "array",
+																				"meta": {},
+																				"children": [
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "",
+																						"key": "0",
+																						"type": "object",
+																						"meta": {},
+																						"children": [
+																							{
+																								"open": false,
+																								"comment": "",
+																								"data": "is_family",
+																								"key": "test",
+																								"type": "string",
+																								"meta": {},
+																								"children": []
+																							},
+																							{
+																								"open": false,
+																								"comment": "",
+																								"data": "other",
+																								"key": "subject",
+																								"type": "string",
+																								"meta": {},
+																								"children": []
+																							},
+																							{
+																								"open": false,
+																								"comment": "",
+																								"data": "player",
+																								"key": "value",
+																								"type": "string",
+																								"meta": {},
+																								"children": []
+																							}
+																						]
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "",
+																						"key": "1",
+																						"type": "object",
+																						"meta": {},
+																						"children": [
+																							{
+																								"open": false,
+																								"comment": "",
+																								"data": "is_family",
+																								"key": "test",
+																								"type": "string",
+																								"meta": {},
+																								"children": []
+																							},
+																							{
+																								"open": false,
+																								"comment": "",
+																								"data": "other",
+																								"key": "subject",
+																								"type": "string",
+																								"meta": {},
+																								"children": []
+																							},
+																							{
+																								"open": false,
+																								"comment": "",
+																								"data": "snowgolem",
+																								"key": "value",
+																								"type": "string",
+																								"meta": {},
+																								"children": []
+																							}
+																						]
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "",
+																						"key": "2",
+																						"type": "object",
+																						"meta": {},
+																						"children": [
+																							{
+																								"open": false,
+																								"comment": "",
+																								"data": "is_family",
+																								"key": "test",
+																								"type": "string",
+																								"meta": {},
+																								"children": []
+																							},
+																							{
+																								"open": false,
+																								"comment": "",
+																								"data": "other",
+																								"key": "subject",
+																								"type": "string",
+																								"meta": {},
+																								"children": []
+																							},
+																							{
+																								"open": false,
+																								"comment": "",
+																								"data": "irongolem",
+																								"key": "value",
+																								"type": "string",
+																								"meta": {},
+																								"children": []
+																							}
+																						]
+																					}
+																				]
+																			}
+																		]
+																	},
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "",
+																		"key": "1",
+																		"type": "object",
+																		"meta": {},
+																		"children": [
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "",
+																				"key": "any_of",
+																				"type": "array",
+																				"meta": {},
+																				"children": [
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "",
+																						"key": "0",
+																						"type": "object",
+																						"meta": {},
+																						"children": [
+																							{
+																								"open": false,
+																								"comment": "",
+																								"data": "in_water",
+																								"key": "test",
+																								"type": "string",
+																								"meta": {},
+																								"children": []
+																							},
+																							{
+																								"open": false,
+																								"comment": "",
+																								"data": "other",
+																								"key": "subject",
+																								"type": "string",
+																								"meta": {},
+																								"children": []
+																							},
+																							{
+																								"open": false,
+																								"comment": "",
+																								"data": "true",
+																								"key": "value",
+																								"type": "boolean",
+																								"meta": {},
+																								"children": []
+																							}
+																						]
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "",
+																						"key": "1",
+																						"type": "object",
+																						"meta": {},
+																						"children": [
+																							{
+																								"open": false,
+																								"comment": "",
+																								"data": "is_daytime",
+																								"key": "test",
+																								"type": "string",
+																								"meta": {},
+																								"children": []
+																							},
+																							{
+																								"open": false,
+																								"comment": "",
+																								"data": "false",
+																								"key": "value",
+																								"type": "boolean",
+																								"meta": {},
+																								"children": []
+																							}
+																						]
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "20",
+														"key": "max_dist",
+														"type": "number",
+														"meta": {},
+														"children": []
+													}
+												]
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "1",
+												"type": "object",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "",
+														"key": "filters",
+														"type": "object",
+														"meta": {},
+														"children": [
+															{
+																"open": false,
+																"comment": "",
+																"data": "",
+																"key": "all_of",
+																"type": "array",
+																"meta": {},
+																"children": [
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "",
+																		"key": "0",
+																		"type": "object",
+																		"meta": {},
+																		"children": [
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "",
+																				"key": "any_of",
+																				"type": "array",
+																				"meta": {},
+																				"children": [
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "",
+																						"key": "0",
+																						"type": "object",
+																						"meta": {},
+																						"children": [
+																							{
+																								"open": false,
+																								"comment": "",
+																								"data": "is_family",
+																								"key": "test",
+																								"type": "string",
+																								"meta": {},
+																								"children": []
+																							},
+																							{
+																								"open": false,
+																								"comment": "",
+																								"data": "other",
+																								"key": "subject",
+																								"type": "string",
+																								"meta": {},
+																								"children": []
+																							},
+																							{
+																								"open": false,
+																								"comment": "",
+																								"data": "villager",
+																								"key": "value",
+																								"type": "string",
+																								"meta": {},
+																								"children": []
+																							}
+																						]
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "",
+																						"key": "1",
+																						"type": "object",
+																						"meta": {},
+																						"children": [
+																							{
+																								"open": false,
+																								"comment": "",
+																								"data": "is_family",
+																								"key": "test",
+																								"type": "string",
+																								"meta": {},
+																								"children": []
+																							},
+																							{
+																								"open": false,
+																								"comment": "",
+																								"data": "other",
+																								"key": "subject",
+																								"type": "string",
+																								"meta": {},
+																								"children": []
+																							},
+																							{
+																								"open": false,
+																								"comment": "",
+																								"data": "wandering_trader",
+																								"key": "value",
+																								"type": "string",
+																								"meta": {},
+																								"children": []
+																							}
+																						]
+																					}
+																				]
+																			}
+																		]
+																	},
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "",
+																		"key": "1",
+																		"type": "object",
+																		"meta": {},
+																		"children": [
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "",
+																				"key": "any_of",
+																				"type": "array",
+																				"meta": {},
+																				"children": [
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "",
+																						"key": "0",
+																						"type": "object",
+																						"meta": {},
+																						"children": [
+																							{
+																								"open": false,
+																								"comment": "",
+																								"data": "in_water",
+																								"key": "test",
+																								"type": "string",
+																								"meta": {},
+																								"children": []
+																							},
+																							{
+																								"open": false,
+																								"comment": "",
+																								"data": "other",
+																								"key": "subject",
+																								"type": "string",
+																								"meta": {},
+																								"children": []
+																							},
+																							{
+																								"open": false,
+																								"comment": "",
+																								"data": "true",
+																								"key": "value",
+																								"type": "boolean",
+																								"meta": {},
+																								"children": []
+																							}
+																						]
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "",
+																						"key": "1",
+																						"type": "object",
+																						"meta": {},
+																						"children": [
+																							{
+																								"open": false,
+																								"comment": "",
+																								"data": "is_daytime",
+																								"key": "test",
+																								"type": "string",
+																								"meta": {},
+																								"children": []
+																							},
+																							{
+																								"open": false,
+																								"comment": "",
+																								"data": "false",
+																								"key": "value",
+																								"type": "boolean",
+																								"meta": {},
+																								"children": []
+																							}
+																						]
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "20",
+														"key": "max_dist",
+														"type": "number",
+														"meta": {},
+														"children": []
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "false",
+														"key": "must_see",
+														"type": "boolean",
+														"meta": {},
+														"children": []
+													}
+												]
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "2",
+												"type": "object",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "",
+														"key": "filters",
+														"type": "object",
+														"meta": {},
+														"children": [
+															{
+																"open": false,
+																"comment": "",
+																"data": "",
+																"key": "all_of",
+																"type": "array",
+																"meta": {},
+																"children": [
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "",
+																		"key": "0",
+																		"type": "object",
+																		"meta": {},
+																		"children": [
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "is_family",
+																				"key": "test",
+																				"type": "string",
+																				"meta": {},
+																				"children": []
+																			},
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "other",
+																				"key": "subject",
+																				"type": "string",
+																				"meta": {},
+																				"children": []
+																			},
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "baby_turtle",
+																				"key": "value",
+																				"type": "string",
+																				"meta": {},
+																				"children": []
+																			}
+																		]
+																	},
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "",
+																		"key": "1",
+																		"type": "object",
+																		"meta": {},
+																		"children": [
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "in_water",
+																				"key": "test",
+																				"type": "string",
+																				"meta": {},
+																				"children": []
+																			},
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "other",
+																				"key": "subject",
+																				"type": "string",
+																				"meta": {},
+																				"children": []
+																			},
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "!=",
+																				"key": "operator",
+																				"type": "string",
+																				"meta": {},
+																				"children": []
+																			},
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "true",
+																				"key": "value",
+																				"type": "boolean",
+																				"meta": {},
+																				"children": []
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "20",
+														"key": "max_dist",
+														"type": "number",
+														"meta": {},
+														"children": []
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "true",
+										"key": "must_see",
+										"type": "boolean",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "17",
+										"key": "must_see_forget_duration",
+										"type": "number",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "0.5",
+										"key": "persist_time",
+										"type": "number",
+										"meta": {},
+										"children": []
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:physics",
+								"type": "object",
+								"meta": {},
+								"children": []
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:pushable",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "true",
+										"key": "is_pushable",
+										"type": "boolean",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "true",
+										"key": "is_pushable_by_piston",
+										"type": "boolean",
+										"meta": {},
+										"children": []
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:on_target_acquired",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "minecraft:has_target",
+										"key": "event",
+										"type": "string",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "self",
+										"key": "target",
+										"type": "string",
+										"meta": {},
+										"children": []
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:on_target_escape",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "minecraft:lost_target",
+										"key": "event",
+										"type": "string",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "self",
+										"key": "target",
+										"type": "string",
+										"meta": {},
+										"children": []
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": false,
+						"comment": "",
+						"data": "",
+						"key": "events",
+						"type": "object",
+						"meta": {},
+						"children": [
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:entity_spawned",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "randomize",
+										"type": "array",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "0",
+												"type": "object",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "15",
+														"key": "weight",
+														"type": "number",
+														"meta": {},
+														"children": []
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "",
+														"key": "remove",
+														"type": "object",
+														"meta": {},
+														"children": []
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "",
+														"key": "add",
+														"type": "object",
+														"meta": {},
+														"children": [
+															{
+																"open": false,
+																"comment": "",
+																"data": "",
+																"key": "component_groups",
+																"type": "array",
+																"meta": {},
+																"children": [
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "minecraft:mode_switcher",
+																		"key": "0",
+																		"type": "string",
+																		"meta": {},
+																		"children": []
+																	},
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "minecraft:ranged_mode",
+																		"key": "1",
+																		"type": "string",
+																		"meta": {},
+																		"children": []
+																	},
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "minecraft:adult_drowned",
+																		"key": "2",
+																		"type": "string",
+																		"meta": {},
+																		"children": []
+																	}
+																]
+															}
+														]
+													}
+												]
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "1",
+												"type": "object",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "85",
+														"key": "weight",
+														"type": "number",
+														"meta": {},
+														"children": []
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "",
+														"key": "randomize",
+														"type": "array",
+														"meta": {},
+														"children": [
+															{
+																"open": false,
+																"comment": "",
+																"data": "",
+																"key": "0",
+																"type": "object",
+																"meta": {},
+																"children": [
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "95",
+																		"key": "weight",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	},
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "",
+																		"key": "remove",
+																		"type": "object",
+																		"meta": {},
+																		"children": []
+																	},
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "",
+																		"key": "add",
+																		"type": "object",
+																		"meta": {},
+																		"children": [
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "",
+																				"key": "component_groups",
+																				"type": "array",
+																				"meta": {},
+																				"children": [
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "minecraft:melee_mode",
+																						"key": "0",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "minecraft:adult_drowned",
+																						"key": "1",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															},
+															{
+																"open": false,
+																"comment": "",
+																"data": "",
+																"key": "1",
+																"type": "object",
+																"meta": {},
+																"children": [
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "5",
+																		"key": "weight",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	},
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "",
+																		"key": "remove",
+																		"type": "object",
+																		"meta": {},
+																		"children": []
+																	},
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "",
+																		"key": "add",
+																		"type": "object",
+																		"meta": {},
+																		"children": [
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "",
+																				"key": "component_groups",
+																				"type": "array",
+																				"meta": {},
+																				"children": [
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "minecraft:melee_mode",
+																						"key": "0",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "minecraft:baby_drowned",
+																						"key": "1",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:as_baby",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "add",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "component_groups",
+												"type": "array",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "minecraft:melee_mode",
+														"key": "0",
+														"type": "string",
+														"meta": {},
+														"children": []
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "minecraft:baby_drowned",
+														"key": "1",
+														"type": "string",
+														"meta": {},
+														"children": []
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:as_adult",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "add",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "component_groups",
+												"type": "array",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "minecraft:melee_mode",
+														"key": "0",
+														"type": "string",
+														"meta": {},
+														"children": []
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "minecraft:adult_drowned",
+														"key": "1",
+														"type": "string",
+														"meta": {},
+														"children": []
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:switch_to_melee",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "remove",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "component_groups",
+												"type": "array",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "minecraft:ranged_mode",
+														"key": "0",
+														"type": "string",
+														"meta": {},
+														"children": []
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "add",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "component_groups",
+												"type": "array",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "minecraft:melee_mode",
+														"key": "0",
+														"type": "string",
+														"meta": {},
+														"children": []
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:switch_to_ranged",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "remove",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "component_groups",
+												"type": "array",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "minecraft:melee_mode",
+														"key": "0",
+														"type": "string",
+														"meta": {},
+														"children": []
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "add",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "component_groups",
+												"type": "array",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "minecraft:ranged_mode",
+														"key": "0",
+														"type": "string",
+														"meta": {},
+														"children": []
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:has_target",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "remove",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "component_groups",
+												"type": "array",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "minecraft:wander_mode",
+														"key": "0",
+														"type": "string",
+														"meta": {},
+														"children": []
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "add",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "component_groups",
+												"type": "array",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "minecraft:hunter_mode",
+														"key": "0",
+														"type": "string",
+														"meta": {},
+														"children": []
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:lost_target",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "remove",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "component_groups",
+												"type": "array",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "minecraft:hunter_mode",
+														"key": "0",
+														"type": "string",
+														"meta": {},
+														"children": []
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "add",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "component_groups",
+												"type": "array",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "minecraft:wander_mode",
+														"key": "0",
+														"type": "string",
+														"meta": {},
+														"children": []
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

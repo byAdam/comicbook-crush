@@ -1,0 +1,59 @@
+{
+	"format_version": "1.10.0",
+	"particle_effect": {
+		"description": {
+			"identifier": "pow:display",
+			"basic_render_parameters": {
+				"material": "particles_alpha",
+				"texture": "textures/particles/display"
+			}
+		},
+		"components": {
+			"minecraft:emitter_local_space": {
+				"position": true,
+				"rotation": false
+							},
+			"minecraft:emitter_rate_steady": {
+				"spawn_rate": 100,
+				"max_particles": 1
+			},
+			"minecraft:emitter_lifetime_looping": {
+				"active_time": 0.1
+			},
+			"minecraft:emitter_shape_point": {
+				"offset": [
+					"Math.random(0.1,0.3)*(-1+(Math.round(Math.random(0,1))*2))",
+					"Math.random(-0.15,0.15)",
+					"1"
+				]
+			},
+			"minecraft:particle_lifetime_expression": {
+				"max_lifetime": 1
+			},
+			"minecraft:particle_initial_speed": 0,
+			"minecraft:particle_motion_dynamic": {},
+			"minecraft:particle_initial_spin": {
+				"rotation": "Math.random(-60,60)"
+			},
+			"minecraft:particle_appearance_billboard": {
+				"size": [
+					"(1-variable.particle_age/variable.particle_lifetime)*.35",
+					"(1-variable.particle_age/variable.particle_lifetime)*.35"
+				],
+				"facing_camera_mode": "lookat_xyz",
+				"uv": {
+					"texture_width": 1500,
+					"texture_height": 1200,
+					"uv": [
+						"Math.floor(variable.particle_random_1*3-0.01)*500",
+						"Math.floor(variable.particle_random_2*3-0.01)*400"
+					],
+					"uv_size": [
+						500,
+						400
+					]
+				}
+			}
+		}
+	}
+}

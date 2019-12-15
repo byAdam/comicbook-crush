@@ -1,0 +1,921 @@
+{
+	"BP/tags/hit.json": {
+		"data": {}
+	},
+	"BP/entity/zombie.json": {
+		"data": {}
+	},
+	"BP/entities/zombie.json": {
+		"data": {
+			"tag@hit": {
+				"minecraft:entity": {
+					"description": {},
+					"component_groups": {},
+					"components": {
+						"minecraft:damage_sensor": {
+							"triggers": [
+								{
+									"on_damage": {
+										"event": "pow:on_hit",
+										"filters": {
+											"all_of": [
+												{
+													"test": "is_family",
+													"subject": "other",
+													"value": "player"
+												}
+											]
+										},
+										"target": "other"
+									}
+								}
+							]
+						}
+					},
+					"events": {}
+				}
+			}
+		}
+	},
+	"RP/entity/player.json": {
+		"data": {}
+	},
+	"RP/animation_controllers/pow.json": {
+		"data": {}
+	},
+	"BP/entities/player.json": {
+		"data": {
+			"tag@player_hit": {
+				"minecraft:entity": {
+					"description": {},
+					"component_groups": {
+						"pow:on_hit": {
+							"minecraft:is_stunned": {},
+							"minecraft:timer": {
+								"time": 0,
+								"time_down_event": {
+									"event": "pow:on_hit_end"
+								}
+							}
+						}
+					},
+					"components": {},
+					"events": {
+						"pow:on_hit": {
+							"add": {
+								"component_groups": [
+									"pow:on_hit"
+								]
+							}
+						},
+						"pow:on_hit_end": {
+							"remove": {
+								"component_groups": [
+									"pow:on_hit"
+								]
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"BP/tags/player_hit.json": {
+		"data": {}
+	},
+	"RP/particles/display.json": {
+		"data": {}
+	},
+	"BP/entities/zombie_pigman.json": {
+		"data": {
+			"tag@hit": {
+				"minecraft:entity": {
+					"description": {},
+					"component_groups": {},
+					"components": {
+						"minecraft:damage_sensor": {
+							"triggers": [
+								{
+									"on_damage": {
+										"event": "pow:on_hit",
+										"filters": {
+											"all_of": [
+												{
+													"test": "is_family",
+													"subject": "other",
+													"value": "player"
+												}
+											]
+										},
+										"target": "other"
+									}
+								}
+							]
+						}
+					},
+					"events": {}
+				}
+			}
+		}
+	},
+	"BP/entities/wither_skeleton.json": {
+		"data": {
+			"tag@hit": {
+				"minecraft:entity": {
+					"description": {},
+					"component_groups": {},
+					"components": {
+						"minecraft:damage_sensor": {
+							"triggers": [
+								{
+									"on_damage": {
+										"event": "pow:on_hit",
+										"filters": {
+											"all_of": [
+												{
+													"test": "is_family",
+													"subject": "other",
+													"value": "player"
+												}
+											]
+										},
+										"target": "other"
+									}
+								}
+							]
+						}
+					},
+					"events": {}
+				}
+			}
+		}
+	},
+	"BP/entities/wither.json": {
+		"data": {
+			"tag@hit": {
+				"minecraft:entity": {
+					"description": {},
+					"component_groups": {},
+					"components": {
+						"minecraft:damage_sensor": {
+							"triggers": [
+								{
+									"on_damage": {
+										"event": "pow:on_hit",
+										"filters": {
+											"all_of": [
+												{
+													"test": "is_family",
+													"subject": "other",
+													"value": "player"
+												}
+											]
+										},
+										"target": "other"
+									}
+								}
+							]
+						}
+					},
+					"events": {}
+				}
+			}
+		}
+	},
+	"BP/entities/witch.json": {
+		"data": {
+			"tag@hit": {
+				"minecraft:entity": {
+					"description": {},
+					"component_groups": {},
+					"components": {
+						"minecraft:damage_sensor": {
+							"triggers": [
+								{
+									"on_damage": {
+										"event": "pow:on_hit",
+										"filters": {
+											"all_of": [
+												{
+													"test": "is_family",
+													"subject": "other",
+													"value": "player"
+												}
+											]
+										},
+										"target": "other"
+									}
+								}
+							]
+						}
+					},
+					"events": {}
+				}
+			}
+		}
+	},
+	"BP/entities/vindicator.json": {
+		"data": {
+			"tag@hit": {
+				"minecraft:entity": {
+					"description": {},
+					"component_groups": {},
+					"components": {
+						"minecraft:damage_sensor": {
+							"triggers": [
+								{
+									"on_damage": {
+										"event": "pow:on_hit",
+										"filters": {
+											"all_of": [
+												{
+													"test": "is_family",
+													"subject": "other",
+													"value": "player"
+												}
+											]
+										},
+										"target": "other"
+									}
+								}
+							]
+						}
+					},
+					"events": {}
+				}
+			}
+		}
+	},
+	"BP/entities/vex.json": {
+		"data": {
+			"tag@hit": {
+				"minecraft:entity": {
+					"description": {},
+					"component_groups": {},
+					"components": {
+						"minecraft:damage_sensor": {
+							"triggers": [
+								{
+									"on_damage": {
+										"event": "pow:on_hit",
+										"filters": {
+											"all_of": [
+												{
+													"test": "is_family",
+													"subject": "other",
+													"value": "player"
+												}
+											]
+										},
+										"target": "other"
+									}
+								}
+							]
+						}
+					},
+					"events": {}
+				}
+			}
+		}
+	},
+	"BP/entities/stray.json": {
+		"data": {
+			"tag@hit": {
+				"minecraft:entity": {
+					"description": {},
+					"component_groups": {},
+					"components": {
+						"minecraft:damage_sensor": {
+							"triggers": [
+								{
+									"on_damage": {
+										"event": "pow:on_hit",
+										"filters": {
+											"all_of": [
+												{
+													"test": "is_family",
+													"subject": "other",
+													"value": "player"
+												}
+											]
+										},
+										"target": "other"
+									}
+								}
+							]
+						}
+					},
+					"events": {}
+				}
+			}
+		}
+	},
+	"BP/entities/snow_golem.json": {
+		"data": {
+			"tag@hit": {
+				"minecraft:entity": {
+					"description": {},
+					"component_groups": {},
+					"components": {
+						"minecraft:damage_sensor": {
+							"triggers": [
+								{
+									"on_damage": {
+										"event": "pow:on_hit",
+										"filters": {
+											"all_of": [
+												{
+													"test": "is_family",
+													"subject": "other",
+													"value": "player"
+												}
+											]
+										},
+										"target": "other"
+									}
+								}
+							]
+						}
+					},
+					"events": {}
+				}
+			}
+		}
+	},
+	"BP/entities/skeleton.json": {
+		"data": {
+			"tag@hit": {
+				"minecraft:entity": {
+					"description": {},
+					"component_groups": {},
+					"components": {
+						"minecraft:damage_sensor": {
+							"triggers": [
+								{
+									"on_damage": {
+										"event": "pow:on_hit",
+										"filters": {
+											"all_of": [
+												{
+													"test": "is_family",
+													"subject": "other",
+													"value": "player"
+												}
+											]
+										},
+										"target": "other"
+									}
+								}
+							]
+						}
+					},
+					"events": {}
+				}
+			}
+		}
+	},
+	"BP/entities/silverfish.json": {
+		"data": {
+			"tag@hit": {
+				"minecraft:entity": {
+					"description": {},
+					"component_groups": {},
+					"components": {
+						"minecraft:damage_sensor": {
+							"triggers": [
+								{
+									"on_damage": {
+										"event": "pow:on_hit",
+										"filters": {
+											"all_of": [
+												{
+													"test": "is_family",
+													"subject": "other",
+													"value": "player"
+												}
+											]
+										},
+										"target": "other"
+									}
+								}
+							]
+						}
+					},
+					"events": {}
+				}
+			}
+		}
+	},
+	"BP/entities/shulker.json": {
+		"data": {
+			"tag@hit": {
+				"minecraft:entity": {
+					"description": {},
+					"component_groups": {},
+					"components": {
+						"minecraft:damage_sensor": {
+							"triggers": [
+								{
+									"on_damage": {
+										"event": "pow:on_hit",
+										"filters": {
+											"all_of": [
+												{
+													"test": "is_family",
+													"subject": "other",
+													"value": "player"
+												}
+											]
+										},
+										"target": "other"
+									}
+								}
+							]
+						}
+					},
+					"events": {}
+				}
+			}
+		}
+	},
+	"BP/entities/ravager.json": {
+		"data": {
+			"tag@hit": {
+				"minecraft:entity": {
+					"description": {},
+					"component_groups": {},
+					"components": {
+						"minecraft:damage_sensor": {
+							"triggers": [
+								{
+									"on_damage": {
+										"event": "pow:on_hit",
+										"filters": {
+											"all_of": [
+												{
+													"test": "is_family",
+													"subject": "other",
+													"value": "player"
+												}
+											]
+										},
+										"target": "other"
+									}
+								}
+							]
+						}
+					},
+					"events": {}
+				}
+			}
+		}
+	},
+	"BP/entities/pillager.json": {
+		"data": {
+			"tag@hit": {
+				"minecraft:entity": {
+					"description": {},
+					"component_groups": {},
+					"components": {
+						"minecraft:damage_sensor": {
+							"triggers": [
+								{
+									"on_damage": {
+										"event": "pow:on_hit",
+										"filters": {
+											"all_of": [
+												{
+													"test": "is_family",
+													"subject": "other",
+													"value": "player"
+												}
+											]
+										},
+										"target": "other"
+									}
+								}
+							]
+						}
+					},
+					"events": {}
+				}
+			}
+		}
+	},
+	"BP/entities/phantom.json": {
+		"data": {
+			"tag@hit": {
+				"minecraft:entity": {
+					"description": {},
+					"component_groups": {},
+					"components": {
+						"minecraft:damage_sensor": {
+							"triggers": [
+								{
+									"on_damage": {
+										"event": "pow:on_hit",
+										"filters": {
+											"all_of": [
+												{
+													"test": "is_family",
+													"subject": "other",
+													"value": "player"
+												}
+											]
+										},
+										"target": "other"
+									}
+								}
+							]
+						}
+					},
+					"events": {}
+				}
+			}
+		}
+	},
+	"BP/entities/iron_golem.json": {
+		"data": {
+			"tag@hit": {
+				"minecraft:entity": {
+					"description": {},
+					"component_groups": {},
+					"components": {
+						"minecraft:damage_sensor": {
+							"triggers": [
+								{
+									"on_damage": {
+										"event": "pow:on_hit",
+										"filters": {
+											"all_of": [
+												{
+													"test": "is_family",
+													"subject": "other",
+													"value": "player"
+												}
+											]
+										},
+										"target": "other"
+									}
+								}
+							]
+						}
+					},
+					"events": {}
+				}
+			}
+		}
+	},
+	"BP/entities/husk.json": {
+		"data": {
+			"tag@hit": {
+				"minecraft:entity": {
+					"description": {},
+					"component_groups": {},
+					"components": {
+						"minecraft:damage_sensor": {
+							"triggers": [
+								{
+									"on_damage": {
+										"event": "pow:on_hit",
+										"filters": {
+											"all_of": [
+												{
+													"test": "is_family",
+													"subject": "other",
+													"value": "player"
+												}
+											]
+										},
+										"target": "other"
+									}
+								}
+							]
+						}
+					},
+					"events": {}
+				}
+			}
+		}
+	},
+	"BP/entities/guardian.json": {
+		"data": {
+			"tag@hit": {
+				"minecraft:entity": {
+					"description": {},
+					"component_groups": {},
+					"components": {
+						"minecraft:damage_sensor": {
+							"triggers": [
+								{
+									"on_damage": {
+										"event": "pow:on_hit",
+										"filters": {
+											"all_of": [
+												{
+													"test": "is_family",
+													"subject": "other",
+													"value": "player"
+												}
+											]
+										},
+										"target": "other"
+									}
+								}
+							]
+						}
+					},
+					"events": {}
+				}
+			}
+		}
+	},
+	"BP/entities/ghast.json": {
+		"data": {
+			"tag@hit": {
+				"minecraft:entity": {
+					"description": {},
+					"component_groups": {},
+					"components": {
+						"minecraft:damage_sensor": {
+							"triggers": [
+								{
+									"on_damage": {
+										"event": "pow:on_hit",
+										"filters": {
+											"all_of": [
+												{
+													"test": "is_family",
+													"subject": "other",
+													"value": "player"
+												}
+											]
+										},
+										"target": "other"
+									}
+								}
+							]
+						}
+					},
+					"events": {}
+				}
+			}
+		}
+	},
+	"BP/entities/endermite.json": {
+		"data": {
+			"tag@hit": {
+				"minecraft:entity": {
+					"description": {},
+					"component_groups": {},
+					"components": {
+						"minecraft:damage_sensor": {
+							"triggers": [
+								{
+									"on_damage": {
+										"event": "pow:on_hit",
+										"filters": {
+											"all_of": [
+												{
+													"test": "is_family",
+													"subject": "other",
+													"value": "player"
+												}
+											]
+										},
+										"target": "other"
+									}
+								}
+							]
+						}
+					},
+					"events": {}
+				}
+			}
+		}
+	},
+	"BP/entities/ender_dragon.json": {
+		"data": {
+			"tag@hit": {
+				"minecraft:entity": {
+					"description": {},
+					"component_groups": {},
+					"components": {
+						"minecraft:damage_sensor": {
+							"triggers": [
+								{
+									"on_damage": {
+										"event": "pow:on_hit",
+										"filters": {
+											"all_of": [
+												{
+													"test": "is_family",
+													"subject": "other",
+													"value": "player"
+												}
+											]
+										},
+										"target": "other"
+									}
+								}
+							]
+						}
+					},
+					"events": {}
+				}
+			}
+		}
+	},
+	"BP/entities/elder_guardian.json": {
+		"data": {
+			"tag@hit": {
+				"minecraft:entity": {
+					"description": {},
+					"component_groups": {},
+					"components": {
+						"minecraft:damage_sensor": {
+							"triggers": [
+								{
+									"on_damage": {
+										"event": "pow:on_hit",
+										"filters": {
+											"all_of": [
+												{
+													"test": "is_family",
+													"subject": "other",
+													"value": "player"
+												}
+											]
+										},
+										"target": "other"
+									}
+								}
+							]
+						}
+					},
+					"events": {}
+				}
+			}
+		}
+	},
+	"BP/entities/drowned.json": {
+		"data": {
+			"tag@hit": {
+				"minecraft:entity": {
+					"description": {},
+					"component_groups": {},
+					"components": {
+						"minecraft:damage_sensor": {
+							"triggers": [
+								{
+									"on_damage": {
+										"event": "pow:on_hit",
+										"filters": {
+											"all_of": [
+												{
+													"test": "is_family",
+													"subject": "other",
+													"value": "player"
+												}
+											]
+										},
+										"target": "other"
+									}
+								}
+							]
+						}
+					},
+					"events": {}
+				}
+			}
+		}
+	},
+	"BP/entities/creeper.json": {
+		"data": {
+			"tag@hit": {
+				"minecraft:entity": {
+					"description": {},
+					"component_groups": {},
+					"components": {
+						"minecraft:damage_sensor": {
+							"triggers": [
+								{
+									"on_damage": {
+										"event": "pow:on_hit",
+										"filters": {
+											"all_of": [
+												{
+													"test": "is_family",
+													"subject": "other",
+													"value": "player"
+												}
+											]
+										},
+										"target": "other"
+									}
+								}
+							]
+						}
+					},
+					"events": {}
+				}
+			}
+		}
+	},
+	"BP/entities/cave_spider.json": {
+		"data": {
+			"tag@hit": {
+				"minecraft:entity": {
+					"description": {},
+					"component_groups": {},
+					"components": {
+						"minecraft:damage_sensor": {
+							"triggers": [
+								{
+									"on_damage": {
+										"event": "pow:on_hit",
+										"filters": {
+											"all_of": [
+												{
+													"test": "is_family",
+													"subject": "other",
+													"value": "player"
+												}
+											]
+										},
+										"target": "other"
+									}
+								}
+							]
+						}
+					},
+					"events": {}
+				}
+			}
+		}
+	},
+	"BP/entities/blaze.json": {
+		"data": {
+			"tag@hit": {
+				"minecraft:entity": {
+					"description": {},
+					"component_groups": {},
+					"components": {
+						"minecraft:damage_sensor": {
+							"triggers": [
+								{
+									"on_damage": {
+										"event": "pow:on_hit",
+										"filters": {
+											"all_of": [
+												{
+													"test": "is_family",
+													"subject": "other",
+													"value": "player"
+												}
+											]
+										},
+										"target": "other"
+									}
+								}
+							]
+						}
+					},
+					"events": {}
+				}
+			}
+		}
+	},
+	"BP/entities/enderman.json": {
+		"data": {
+			"tag@hit": {
+				"minecraft:entity": {
+					"description": {},
+					"component_groups": {},
+					"components": {
+						"minecraft:damage_sensor": {
+							"triggers": [
+								{
+									"on_damage": {
+										"event": "pow:on_hit",
+										"filters": {
+											"all_of": [
+												{
+													"test": "is_family",
+													"subject": "other",
+													"value": "player"
+												}
+											]
+										},
+										"target": "other"
+									}
+								}
+							]
+						}
+					},
+					"events": {}
+				}
+			}
+		}
+	}
+}

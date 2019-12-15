@@ -1,0 +1,5013 @@
+{
+	"file_path": "C:\\Users\\Adam\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\POW BP\\entities\\shulker.json",
+	"file_type": "entity",
+	"format_version": 1,
+	"file_uuid": "7c132871_13c0_4bea_a6b3_347ff06c6d9f",
+	"file_version": 0,
+	"cache_content": {
+		"open": true,
+		"comment": "",
+		"data": "",
+		"key": "global",
+		"type": "object",
+		"meta": {},
+		"children": [
+			{
+				"open": false,
+				"comment": "",
+				"data": "1.13.0",
+				"key": "format_version",
+				"type": "string",
+				"meta": {},
+				"children": []
+			},
+			{
+				"open": true,
+				"comment": "",
+				"data": "",
+				"key": "minecraft:entity",
+				"type": "object",
+				"meta": {
+					"expand_path_exceptions": [
+						"do_not_upgrade"
+					]
+				},
+				"children": [
+					{
+						"open": true,
+						"comment": "",
+						"data": "",
+						"key": "description",
+						"type": "object",
+						"meta": {},
+						"children": [
+							{
+								"open": false,
+								"comment": "",
+								"data": "minecraft:shulker",
+								"key": "identifier",
+								"type": "string",
+								"meta": {},
+								"children": []
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "true",
+								"key": "is_spawnable",
+								"type": "boolean",
+								"meta": {},
+								"children": []
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "true",
+								"key": "is_summonable",
+								"type": "boolean",
+								"meta": {},
+								"children": []
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "false",
+								"key": "is_experimental",
+								"type": "boolean",
+								"meta": {},
+								"children": []
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "tags",
+								"type": "array",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "hit",
+										"key": "0",
+										"type": "string",
+										"meta": {},
+										"children": []
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": false,
+						"comment": "",
+						"data": "",
+						"key": "component_groups",
+						"type": "object",
+						"meta": {},
+						"children": [
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:shulker_purple",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "minecraft:variant",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "5",
+												"key": "value",
+												"type": "number",
+												"meta": {},
+												"children": []
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:shulker_black",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "minecraft:variant",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "0",
+												"key": "value",
+												"type": "number",
+												"meta": {},
+												"children": []
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:shulker_blue",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "minecraft:variant",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "4",
+												"key": "value",
+												"type": "number",
+												"meta": {},
+												"children": []
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:shulker_brown",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "minecraft:variant",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "3",
+												"key": "value",
+												"type": "number",
+												"meta": {},
+												"children": []
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:shulker_cyan",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "minecraft:variant",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "6",
+												"key": "value",
+												"type": "number",
+												"meta": {},
+												"children": []
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:shulker_gray",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "minecraft:variant",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "8",
+												"key": "value",
+												"type": "number",
+												"meta": {},
+												"children": []
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:shulker_green",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "minecraft:variant",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "2",
+												"key": "value",
+												"type": "number",
+												"meta": {},
+												"children": []
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:shulker_light_blue",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "minecraft:variant",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "12",
+												"key": "value",
+												"type": "number",
+												"meta": {},
+												"children": []
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:shulker_lime",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "minecraft:variant",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "10",
+												"key": "value",
+												"type": "number",
+												"meta": {},
+												"children": []
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:shulker_magenta",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "minecraft:variant",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "13",
+												"key": "value",
+												"type": "number",
+												"meta": {},
+												"children": []
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:shulker_orange",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "minecraft:variant",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "14",
+												"key": "value",
+												"type": "number",
+												"meta": {},
+												"children": []
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:shulker_pink",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "minecraft:variant",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "9",
+												"key": "value",
+												"type": "number",
+												"meta": {},
+												"children": []
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:shulker_red",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "minecraft:variant",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "1",
+												"key": "value",
+												"type": "number",
+												"meta": {},
+												"children": []
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:shulker_silver",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "minecraft:variant",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "7",
+												"key": "value",
+												"type": "number",
+												"meta": {},
+												"children": []
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:shulker_undyed",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "minecraft:variant",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "16",
+												"key": "value",
+												"type": "number",
+												"meta": {},
+												"children": []
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:shulker_white",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "minecraft:variant",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "15",
+												"key": "value",
+												"type": "number",
+												"meta": {},
+												"children": []
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:shulker_yellow",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "minecraft:variant",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "11",
+												"key": "value",
+												"type": "number",
+												"meta": {},
+												"children": []
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": false,
+						"comment": "",
+						"data": "",
+						"key": "components",
+						"type": "object",
+						"meta": {},
+						"children": [
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:experience_reward",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "query.last_hit_by_player ? 5 : 0",
+										"key": "on_death",
+										"type": "string",
+										"meta": {},
+										"children": []
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:type_family",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "family",
+										"type": "array",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "shulker",
+												"key": "0",
+												"type": "string",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "monster",
+												"key": "1",
+												"type": "string",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "mob",
+												"key": "2",
+												"type": "string",
+												"meta": {},
+												"children": []
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:breathable",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "15",
+										"key": "total_supply",
+										"type": "number",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "0",
+										"key": "suffocate_time",
+										"type": "number",
+										"meta": {},
+										"children": []
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:nameable",
+								"type": "object",
+								"meta": {},
+								"children": []
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:health",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "30",
+										"key": "value",
+										"type": "number",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "30",
+										"key": "max",
+										"type": "number",
+										"meta": {},
+										"children": []
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:hurt_on_condition",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "damage_conditions",
+										"type": "array",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "0",
+												"type": "object",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "",
+														"key": "filters",
+														"type": "object",
+														"meta": {},
+														"children": [
+															{
+																"open": false,
+																"comment": "",
+																"data": "in_lava",
+																"key": "test",
+																"type": "string",
+																"meta": {},
+																"children": []
+															},
+															{
+																"open": false,
+																"comment": "",
+																"data": "self",
+																"key": "subject",
+																"type": "string",
+																"meta": {},
+																"children": []
+															},
+															{
+																"open": false,
+																"comment": "",
+																"data": "==",
+																"key": "operator",
+																"type": "string",
+																"meta": {},
+																"children": []
+															},
+															{
+																"open": false,
+																"comment": "",
+																"data": "true",
+																"key": "value",
+																"type": "boolean",
+																"meta": {},
+																"children": []
+															}
+														]
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "lava",
+														"key": "cause",
+														"type": "string",
+														"meta": {},
+														"children": []
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "4",
+														"key": "damage_per_tick",
+														"type": "number",
+														"meta": {},
+														"children": []
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:movement",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "0",
+										"key": "value",
+										"type": "number",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "0",
+										"key": "max",
+										"type": "number",
+										"meta": {},
+										"children": []
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:loot",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "loot_tables/entities/shulker.json",
+										"key": "table",
+										"type": "string",
+										"meta": {},
+										"children": []
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:peek",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "on_open",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "minecraft:on_open",
+												"key": "event",
+												"type": "string",
+												"meta": {},
+												"children": []
+											}
+										]
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "on_close",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "minecraft:on_close",
+												"key": "event",
+												"type": "string",
+												"meta": {},
+												"children": []
+											}
+										]
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "on_target_open",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "minecraft:on_open",
+												"key": "event",
+												"type": "string",
+												"meta": {},
+												"children": []
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:behavior.look_at_player",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "1",
+										"key": "priority",
+										"type": "number",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "6",
+										"key": "look_distance",
+										"type": "number",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "0.02",
+										"key": "probability",
+										"type": "number",
+										"meta": {},
+										"children": []
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:shooter",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "ShulkerBullet",
+										"key": "type",
+										"type": "string",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "minecraft:shulker_bullet",
+										"key": "def",
+										"type": "string",
+										"meta": {},
+										"children": []
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:behavior.random_look_around",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "8",
+										"key": "priority",
+										"type": "number",
+										"meta": {},
+										"children": []
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:behavior.ranged_attack",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "1",
+										"key": "attack_interval_min",
+										"type": "number",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "3",
+										"key": "attack_interval_max",
+										"type": "number",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "15",
+										"key": "attack_radius",
+										"type": "number",
+										"meta": {},
+										"children": []
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:behavior.hurt_by_target",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "2",
+										"key": "priority",
+										"type": "number",
+										"meta": {},
+										"children": []
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:behavior.nearest_attackable_target",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "3",
+										"key": "priority",
+										"type": "number",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "entity_types",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "filters",
+												"type": "object",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "is_family",
+														"key": "test",
+														"type": "string",
+														"meta": {},
+														"children": []
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "other",
+														"key": "subject",
+														"type": "string",
+														"meta": {},
+														"children": []
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "player",
+														"key": "value",
+														"type": "string",
+														"meta": {},
+														"children": []
+													}
+												]
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "16",
+												"key": "max_dist",
+												"type": "number",
+												"meta": {},
+												"children": []
+											}
+										]
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "true",
+										"key": "must_see",
+										"type": "boolean",
+										"meta": {},
+										"children": []
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:navigation.walk",
+								"type": "object",
+								"meta": {},
+								"children": []
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:movement.basic",
+								"type": "object",
+								"meta": {},
+								"children": []
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:interact",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "interactions",
+										"type": "array",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "0",
+												"type": "object",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "",
+														"key": "on_interact",
+														"type": "object",
+														"meta": {},
+														"children": [
+															{
+																"open": false,
+																"comment": "",
+																"data": "",
+																"key": "filters",
+																"type": "object",
+																"meta": {},
+																"children": [
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "",
+																		"key": "all_of",
+																		"type": "array",
+																		"meta": {},
+																		"children": [
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "",
+																				"key": "0",
+																				"type": "object",
+																				"meta": {},
+																				"children": [
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "",
+																						"key": "any_of",
+																						"type": "array",
+																						"meta": {},
+																						"children": [
+																							{
+																								"open": false,
+																								"comment": "",
+																								"data": "",
+																								"key": "0",
+																								"type": "object",
+																								"meta": {},
+																								"children": [
+																									{
+																										"open": false,
+																										"comment": "",
+																										"data": "has_equipment",
+																										"key": "test",
+																										"type": "string",
+																										"meta": {},
+																										"children": []
+																									},
+																									{
+																										"open": false,
+																										"comment": "",
+																										"data": "other",
+																										"key": "subject",
+																										"type": "string",
+																										"meta": {},
+																										"children": []
+																									},
+																									{
+																										"open": false,
+																										"comment": "",
+																										"data": "hand",
+																										"key": "domain",
+																										"type": "string",
+																										"meta": {},
+																										"children": []
+																									},
+																									{
+																										"open": false,
+																										"comment": "",
+																										"data": "dye:0",
+																										"key": "value",
+																										"type": "string",
+																										"meta": {},
+																										"children": []
+																									}
+																								]
+																							},
+																							{
+																								"open": false,
+																								"comment": "",
+																								"data": "",
+																								"key": "1",
+																								"type": "object",
+																								"meta": {},
+																								"children": [
+																									{
+																										"open": false,
+																										"comment": "",
+																										"data": "has_equipment",
+																										"key": "test",
+																										"type": "string",
+																										"meta": {},
+																										"children": []
+																									},
+																									{
+																										"open": false,
+																										"comment": "",
+																										"data": "other",
+																										"key": "subject",
+																										"type": "string",
+																										"meta": {},
+																										"children": []
+																									},
+																									{
+																										"open": false,
+																										"comment": "",
+																										"data": "hand",
+																										"key": "domain",
+																										"type": "string",
+																										"meta": {},
+																										"children": []
+																									},
+																									{
+																										"open": false,
+																										"comment": "",
+																										"data": "dye:16",
+																										"key": "value",
+																										"type": "string",
+																										"meta": {},
+																										"children": []
+																									}
+																								]
+																							}
+																						]
+																					}
+																				]
+																			},
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "",
+																				"key": "1",
+																				"type": "object",
+																				"meta": {},
+																				"children": [
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "is_family",
+																						"key": "test",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "other",
+																						"key": "subject",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "player",
+																						"key": "value",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					}
+																				]
+																			},
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "",
+																				"key": "2",
+																				"type": "object",
+																				"meta": {},
+																				"children": [
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "has_ability",
+																						"key": "test",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "other",
+																						"key": "subject",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "instabuild",
+																						"key": "value",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															},
+															{
+																"open": false,
+																"comment": "",
+																"data": "minecraft:turn_black",
+																"key": "event",
+																"type": "string",
+																"meta": {},
+																"children": []
+															}
+														]
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "true",
+														"key": "use_item",
+														"type": "boolean",
+														"meta": {},
+														"children": []
+													}
+												]
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "1",
+												"type": "object",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "",
+														"key": "on_interact",
+														"type": "object",
+														"meta": {},
+														"children": [
+															{
+																"open": false,
+																"comment": "",
+																"data": "",
+																"key": "filters",
+																"type": "object",
+																"meta": {},
+																"children": [
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "",
+																		"key": "all_of",
+																		"type": "array",
+																		"meta": {},
+																		"children": [
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "",
+																				"key": "0",
+																				"type": "object",
+																				"meta": {},
+																				"children": [
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "has_equipment",
+																						"key": "test",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "other",
+																						"key": "subject",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "hand",
+																						"key": "domain",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "dye:8",
+																						"key": "value",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					}
+																				]
+																			},
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "",
+																				"key": "1",
+																				"type": "object",
+																				"meta": {},
+																				"children": [
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "is_family",
+																						"key": "test",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "other",
+																						"key": "subject",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "player",
+																						"key": "value",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					}
+																				]
+																			},
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "",
+																				"key": "2",
+																				"type": "object",
+																				"meta": {},
+																				"children": [
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "has_ability",
+																						"key": "test",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "other",
+																						"key": "subject",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "instabuild",
+																						"key": "value",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															},
+															{
+																"open": false,
+																"comment": "",
+																"data": "minecraft:turn_gray",
+																"key": "event",
+																"type": "string",
+																"meta": {},
+																"children": []
+															}
+														]
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "true",
+														"key": "use_item",
+														"type": "boolean",
+														"meta": {},
+														"children": []
+													}
+												]
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "2",
+												"type": "object",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "",
+														"key": "on_interact",
+														"type": "object",
+														"meta": {},
+														"children": [
+															{
+																"open": false,
+																"comment": "",
+																"data": "",
+																"key": "filters",
+																"type": "object",
+																"meta": {},
+																"children": [
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "",
+																		"key": "all_of",
+																		"type": "array",
+																		"meta": {},
+																		"children": [
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "",
+																				"key": "0",
+																				"type": "object",
+																				"meta": {},
+																				"children": [
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "has_equipment",
+																						"key": "test",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "other",
+																						"key": "subject",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "hand",
+																						"key": "domain",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "dye:7",
+																						"key": "value",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					}
+																				]
+																			},
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "",
+																				"key": "1",
+																				"type": "object",
+																				"meta": {},
+																				"children": [
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "is_family",
+																						"key": "test",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "other",
+																						"key": "subject",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "player",
+																						"key": "value",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					}
+																				]
+																			},
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "",
+																				"key": "2",
+																				"type": "object",
+																				"meta": {},
+																				"children": [
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "has_ability",
+																						"key": "test",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "other",
+																						"key": "subject",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "instabuild",
+																						"key": "value",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															},
+															{
+																"open": false,
+																"comment": "",
+																"data": "minecraft:turn_silver",
+																"key": "event",
+																"type": "string",
+																"meta": {},
+																"children": []
+															}
+														]
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "true",
+														"key": "use_item",
+														"type": "boolean",
+														"meta": {},
+														"children": []
+													}
+												]
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "3",
+												"type": "object",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "",
+														"key": "on_interact",
+														"type": "object",
+														"meta": {},
+														"children": [
+															{
+																"open": false,
+																"comment": "",
+																"data": "",
+																"key": "filters",
+																"type": "object",
+																"meta": {},
+																"children": [
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "",
+																		"key": "all_of",
+																		"type": "array",
+																		"meta": {},
+																		"children": [
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "",
+																				"key": "0",
+																				"type": "object",
+																				"meta": {},
+																				"children": [
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "",
+																						"key": "any_of",
+																						"type": "array",
+																						"meta": {},
+																						"children": [
+																							{
+																								"open": false,
+																								"comment": "",
+																								"data": "",
+																								"key": "0",
+																								"type": "object",
+																								"meta": {},
+																								"children": [
+																									{
+																										"open": false,
+																										"comment": "",
+																										"data": "has_equipment",
+																										"key": "test",
+																										"type": "string",
+																										"meta": {},
+																										"children": []
+																									},
+																									{
+																										"open": false,
+																										"comment": "",
+																										"data": "other",
+																										"key": "subject",
+																										"type": "string",
+																										"meta": {},
+																										"children": []
+																									},
+																									{
+																										"open": false,
+																										"comment": "",
+																										"data": "hand",
+																										"key": "domain",
+																										"type": "string",
+																										"meta": {},
+																										"children": []
+																									},
+																									{
+																										"open": false,
+																										"comment": "",
+																										"data": "dye:15",
+																										"key": "value",
+																										"type": "string",
+																										"meta": {},
+																										"children": []
+																									}
+																								]
+																							},
+																							{
+																								"open": false,
+																								"comment": "",
+																								"data": "",
+																								"key": "1",
+																								"type": "object",
+																								"meta": {},
+																								"children": [
+																									{
+																										"open": false,
+																										"comment": "",
+																										"data": "has_equipment",
+																										"key": "test",
+																										"type": "string",
+																										"meta": {},
+																										"children": []
+																									},
+																									{
+																										"open": false,
+																										"comment": "",
+																										"data": "other",
+																										"key": "subject",
+																										"type": "string",
+																										"meta": {},
+																										"children": []
+																									},
+																									{
+																										"open": false,
+																										"comment": "",
+																										"data": "hand",
+																										"key": "domain",
+																										"type": "string",
+																										"meta": {},
+																										"children": []
+																									},
+																									{
+																										"open": false,
+																										"comment": "",
+																										"data": "dye:19",
+																										"key": "value",
+																										"type": "string",
+																										"meta": {},
+																										"children": []
+																									}
+																								]
+																							}
+																						]
+																					}
+																				]
+																			},
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "",
+																				"key": "1",
+																				"type": "object",
+																				"meta": {},
+																				"children": [
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "is_family",
+																						"key": "test",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "other",
+																						"key": "subject",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "player",
+																						"key": "value",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					}
+																				]
+																			},
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "",
+																				"key": "2",
+																				"type": "object",
+																				"meta": {},
+																				"children": [
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "has_ability",
+																						"key": "test",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "other",
+																						"key": "subject",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "instabuild",
+																						"key": "value",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															},
+															{
+																"open": false,
+																"comment": "",
+																"data": "minecraft:turn_white",
+																"key": "event",
+																"type": "string",
+																"meta": {},
+																"children": []
+															}
+														]
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "true",
+														"key": "use_item",
+														"type": "boolean",
+														"meta": {},
+														"children": []
+													}
+												]
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "4",
+												"type": "object",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "",
+														"key": "on_interact",
+														"type": "object",
+														"meta": {},
+														"children": [
+															{
+																"open": false,
+																"comment": "",
+																"data": "",
+																"key": "filters",
+																"type": "object",
+																"meta": {},
+																"children": [
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "",
+																		"key": "all_of",
+																		"type": "array",
+																		"meta": {},
+																		"children": [
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "",
+																				"key": "0",
+																				"type": "object",
+																				"meta": {},
+																				"children": [
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "has_equipment",
+																						"key": "test",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "other",
+																						"key": "subject",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "hand",
+																						"key": "domain",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "dye:12",
+																						"key": "value",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					}
+																				]
+																			},
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "",
+																				"key": "1",
+																				"type": "object",
+																				"meta": {},
+																				"children": [
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "is_family",
+																						"key": "test",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "other",
+																						"key": "subject",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "player",
+																						"key": "value",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					}
+																				]
+																			},
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "",
+																				"key": "2",
+																				"type": "object",
+																				"meta": {},
+																				"children": [
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "has_ability",
+																						"key": "test",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "other",
+																						"key": "subject",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "instabuild",
+																						"key": "value",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															},
+															{
+																"open": false,
+																"comment": "",
+																"data": "minecraft:turn_light_blue",
+																"key": "event",
+																"type": "string",
+																"meta": {},
+																"children": []
+															}
+														]
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "true",
+														"key": "use_item",
+														"type": "boolean",
+														"meta": {},
+														"children": []
+													}
+												]
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "5",
+												"type": "object",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "",
+														"key": "on_interact",
+														"type": "object",
+														"meta": {},
+														"children": [
+															{
+																"open": false,
+																"comment": "",
+																"data": "",
+																"key": "filters",
+																"type": "object",
+																"meta": {},
+																"children": [
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "",
+																		"key": "all_of",
+																		"type": "array",
+																		"meta": {},
+																		"children": [
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "",
+																				"key": "0",
+																				"type": "object",
+																				"meta": {},
+																				"children": [
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "has_equipment",
+																						"key": "test",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "other",
+																						"key": "subject",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "hand",
+																						"key": "domain",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "dye:14",
+																						"key": "value",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					}
+																				]
+																			},
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "",
+																				"key": "1",
+																				"type": "object",
+																				"meta": {},
+																				"children": [
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "is_family",
+																						"key": "test",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "other",
+																						"key": "subject",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "player",
+																						"key": "value",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					}
+																				]
+																			},
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "",
+																				"key": "2",
+																				"type": "object",
+																				"meta": {},
+																				"children": [
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "has_ability",
+																						"key": "test",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "other",
+																						"key": "subject",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "instabuild",
+																						"key": "value",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															},
+															{
+																"open": false,
+																"comment": "",
+																"data": "minecraft:turn_orange",
+																"key": "event",
+																"type": "string",
+																"meta": {},
+																"children": []
+															}
+														]
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "true",
+														"key": "use_item",
+														"type": "boolean",
+														"meta": {},
+														"children": []
+													}
+												]
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "6",
+												"type": "object",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "",
+														"key": "on_interact",
+														"type": "object",
+														"meta": {},
+														"children": [
+															{
+																"open": false,
+																"comment": "",
+																"data": "",
+																"key": "filters",
+																"type": "object",
+																"meta": {},
+																"children": [
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "",
+																		"key": "all_of",
+																		"type": "array",
+																		"meta": {},
+																		"children": [
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "",
+																				"key": "0",
+																				"type": "object",
+																				"meta": {},
+																				"children": [
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "has_equipment",
+																						"key": "test",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "other",
+																						"key": "subject",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "hand",
+																						"key": "domain",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "dye:1",
+																						"key": "value",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					}
+																				]
+																			},
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "",
+																				"key": "1",
+																				"type": "object",
+																				"meta": {},
+																				"children": [
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "is_family",
+																						"key": "test",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "other",
+																						"key": "subject",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "player",
+																						"key": "value",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					}
+																				]
+																			},
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "",
+																				"key": "2",
+																				"type": "object",
+																				"meta": {},
+																				"children": [
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "has_ability",
+																						"key": "test",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "other",
+																						"key": "subject",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "instabuild",
+																						"key": "value",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															},
+															{
+																"open": false,
+																"comment": "",
+																"data": "minecraft:turn_red",
+																"key": "event",
+																"type": "string",
+																"meta": {},
+																"children": []
+															}
+														]
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "true",
+														"key": "use_item",
+														"type": "boolean",
+														"meta": {},
+														"children": []
+													}
+												]
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "7",
+												"type": "object",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "",
+														"key": "on_interact",
+														"type": "object",
+														"meta": {},
+														"children": [
+															{
+																"open": false,
+																"comment": "",
+																"data": "",
+																"key": "filters",
+																"type": "object",
+																"meta": {},
+																"children": [
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "",
+																		"key": "all_of",
+																		"type": "array",
+																		"meta": {},
+																		"children": [
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "",
+																				"key": "0",
+																				"type": "object",
+																				"meta": {},
+																				"children": [
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "",
+																						"key": "any_of",
+																						"type": "array",
+																						"meta": {},
+																						"children": [
+																							{
+																								"open": false,
+																								"comment": "",
+																								"data": "",
+																								"key": "0",
+																								"type": "object",
+																								"meta": {},
+																								"children": [
+																									{
+																										"open": false,
+																										"comment": "",
+																										"data": "has_equipment",
+																										"key": "test",
+																										"type": "string",
+																										"meta": {},
+																										"children": []
+																									},
+																									{
+																										"open": false,
+																										"comment": "",
+																										"data": "other",
+																										"key": "subject",
+																										"type": "string",
+																										"meta": {},
+																										"children": []
+																									},
+																									{
+																										"open": false,
+																										"comment": "",
+																										"data": "hand",
+																										"key": "domain",
+																										"type": "string",
+																										"meta": {},
+																										"children": []
+																									},
+																									{
+																										"open": false,
+																										"comment": "",
+																										"data": "dye:4",
+																										"key": "value",
+																										"type": "string",
+																										"meta": {},
+																										"children": []
+																									}
+																								]
+																							},
+																							{
+																								"open": false,
+																								"comment": "",
+																								"data": "",
+																								"key": "1",
+																								"type": "object",
+																								"meta": {},
+																								"children": [
+																									{
+																										"open": false,
+																										"comment": "",
+																										"data": "has_equipment",
+																										"key": "test",
+																										"type": "string",
+																										"meta": {},
+																										"children": []
+																									},
+																									{
+																										"open": false,
+																										"comment": "",
+																										"data": "other",
+																										"key": "subject",
+																										"type": "string",
+																										"meta": {},
+																										"children": []
+																									},
+																									{
+																										"open": false,
+																										"comment": "",
+																										"data": "hand",
+																										"key": "domain",
+																										"type": "string",
+																										"meta": {},
+																										"children": []
+																									},
+																									{
+																										"open": false,
+																										"comment": "",
+																										"data": "dye:18",
+																										"key": "value",
+																										"type": "string",
+																										"meta": {},
+																										"children": []
+																									}
+																								]
+																							}
+																						]
+																					}
+																				]
+																			},
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "",
+																				"key": "1",
+																				"type": "object",
+																				"meta": {},
+																				"children": [
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "is_family",
+																						"key": "test",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "other",
+																						"key": "subject",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "player",
+																						"key": "value",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					}
+																				]
+																			},
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "",
+																				"key": "2",
+																				"type": "object",
+																				"meta": {},
+																				"children": [
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "has_ability",
+																						"key": "test",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "other",
+																						"key": "subject",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "instabuild",
+																						"key": "value",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															},
+															{
+																"open": false,
+																"comment": "",
+																"data": "minecraft:turn_blue",
+																"key": "event",
+																"type": "string",
+																"meta": {},
+																"children": []
+															}
+														]
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "true",
+														"key": "use_item",
+														"type": "boolean",
+														"meta": {},
+														"children": []
+													}
+												]
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "8",
+												"type": "object",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "",
+														"key": "on_interact",
+														"type": "object",
+														"meta": {},
+														"children": [
+															{
+																"open": false,
+																"comment": "",
+																"data": "",
+																"key": "filters",
+																"type": "object",
+																"meta": {},
+																"children": [
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "",
+																		"key": "all_of",
+																		"type": "array",
+																		"meta": {},
+																		"children": [
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "",
+																				"key": "0",
+																				"type": "object",
+																				"meta": {},
+																				"children": [
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "has_equipment",
+																						"key": "test",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "other",
+																						"key": "subject",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "hand",
+																						"key": "domain",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "dye:5",
+																						"key": "value",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					}
+																				]
+																			},
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "",
+																				"key": "1",
+																				"type": "object",
+																				"meta": {},
+																				"children": [
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "is_family",
+																						"key": "test",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "other",
+																						"key": "subject",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "player",
+																						"key": "value",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					}
+																				]
+																			},
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "",
+																				"key": "2",
+																				"type": "object",
+																				"meta": {},
+																				"children": [
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "has_ability",
+																						"key": "test",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "other",
+																						"key": "subject",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "instabuild",
+																						"key": "value",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															},
+															{
+																"open": false,
+																"comment": "",
+																"data": "minecraft:turn_purple",
+																"key": "event",
+																"type": "string",
+																"meta": {},
+																"children": []
+															}
+														]
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "true",
+														"key": "use_item",
+														"type": "boolean",
+														"meta": {},
+														"children": []
+													}
+												]
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "9",
+												"type": "object",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "",
+														"key": "on_interact",
+														"type": "object",
+														"meta": {},
+														"children": [
+															{
+																"open": false,
+																"comment": "",
+																"data": "",
+																"key": "filters",
+																"type": "object",
+																"meta": {},
+																"children": [
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "",
+																		"key": "all_of",
+																		"type": "array",
+																		"meta": {},
+																		"children": [
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "",
+																				"key": "0",
+																				"type": "object",
+																				"meta": {},
+																				"children": [
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "has_equipment",
+																						"key": "test",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "other",
+																						"key": "subject",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "hand",
+																						"key": "domain",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "dye:13",
+																						"key": "value",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					}
+																				]
+																			},
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "",
+																				"key": "1",
+																				"type": "object",
+																				"meta": {},
+																				"children": [
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "is_family",
+																						"key": "test",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "other",
+																						"key": "subject",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "player",
+																						"key": "value",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					}
+																				]
+																			},
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "",
+																				"key": "2",
+																				"type": "object",
+																				"meta": {},
+																				"children": [
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "has_ability",
+																						"key": "test",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "other",
+																						"key": "subject",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "instabuild",
+																						"key": "value",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															},
+															{
+																"open": false,
+																"comment": "",
+																"data": "minecraft:turn_magenta",
+																"key": "event",
+																"type": "string",
+																"meta": {},
+																"children": []
+															}
+														]
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "true",
+														"key": "use_item",
+														"type": "boolean",
+														"meta": {},
+														"children": []
+													}
+												]
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "10",
+												"type": "object",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "",
+														"key": "on_interact",
+														"type": "object",
+														"meta": {},
+														"children": [
+															{
+																"open": false,
+																"comment": "",
+																"data": "",
+																"key": "filters",
+																"type": "object",
+																"meta": {},
+																"children": [
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "",
+																		"key": "all_of",
+																		"type": "array",
+																		"meta": {},
+																		"children": [
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "",
+																				"key": "0",
+																				"type": "object",
+																				"meta": {},
+																				"children": [
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "has_equipment",
+																						"key": "test",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "other",
+																						"key": "subject",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "hand",
+																						"key": "domain",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "dye:9",
+																						"key": "value",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					}
+																				]
+																			},
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "",
+																				"key": "1",
+																				"type": "object",
+																				"meta": {},
+																				"children": [
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "is_family",
+																						"key": "test",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "other",
+																						"key": "subject",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "player",
+																						"key": "value",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					}
+																				]
+																			},
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "",
+																				"key": "2",
+																				"type": "object",
+																				"meta": {},
+																				"children": [
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "has_ability",
+																						"key": "test",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "other",
+																						"key": "subject",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "instabuild",
+																						"key": "value",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															},
+															{
+																"open": false,
+																"comment": "",
+																"data": "minecraft:turn_pink",
+																"key": "event",
+																"type": "string",
+																"meta": {},
+																"children": []
+															}
+														]
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "true",
+														"key": "use_item",
+														"type": "boolean",
+														"meta": {},
+														"children": []
+													}
+												]
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "11",
+												"type": "object",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "",
+														"key": "on_interact",
+														"type": "object",
+														"meta": {},
+														"children": [
+															{
+																"open": false,
+																"comment": "",
+																"data": "",
+																"key": "filters",
+																"type": "object",
+																"meta": {},
+																"children": [
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "",
+																		"key": "all_of",
+																		"type": "array",
+																		"meta": {},
+																		"children": [
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "",
+																				"key": "0",
+																				"type": "object",
+																				"meta": {},
+																				"children": [
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "",
+																						"key": "any_of",
+																						"type": "array",
+																						"meta": {},
+																						"children": [
+																							{
+																								"open": false,
+																								"comment": "",
+																								"data": "",
+																								"key": "0",
+																								"type": "object",
+																								"meta": {},
+																								"children": [
+																									{
+																										"open": false,
+																										"comment": "",
+																										"data": "has_equipment",
+																										"key": "test",
+																										"type": "string",
+																										"meta": {},
+																										"children": []
+																									},
+																									{
+																										"open": false,
+																										"comment": "",
+																										"data": "other",
+																										"key": "subject",
+																										"type": "string",
+																										"meta": {},
+																										"children": []
+																									},
+																									{
+																										"open": false,
+																										"comment": "",
+																										"data": "hand",
+																										"key": "domain",
+																										"type": "string",
+																										"meta": {},
+																										"children": []
+																									},
+																									{
+																										"open": false,
+																										"comment": "",
+																										"data": "dye:3",
+																										"key": "value",
+																										"type": "string",
+																										"meta": {},
+																										"children": []
+																									}
+																								]
+																							},
+																							{
+																								"open": false,
+																								"comment": "",
+																								"data": "",
+																								"key": "1",
+																								"type": "object",
+																								"meta": {},
+																								"children": [
+																									{
+																										"open": false,
+																										"comment": "",
+																										"data": "has_equipment",
+																										"key": "test",
+																										"type": "string",
+																										"meta": {},
+																										"children": []
+																									},
+																									{
+																										"open": false,
+																										"comment": "",
+																										"data": "other",
+																										"key": "subject",
+																										"type": "string",
+																										"meta": {},
+																										"children": []
+																									},
+																									{
+																										"open": false,
+																										"comment": "",
+																										"data": "hand",
+																										"key": "domain",
+																										"type": "string",
+																										"meta": {},
+																										"children": []
+																									},
+																									{
+																										"open": false,
+																										"comment": "",
+																										"data": "dye:17",
+																										"key": "value",
+																										"type": "string",
+																										"meta": {},
+																										"children": []
+																									}
+																								]
+																							}
+																						]
+																					}
+																				]
+																			},
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "",
+																				"key": "1",
+																				"type": "object",
+																				"meta": {},
+																				"children": [
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "is_family",
+																						"key": "test",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "other",
+																						"key": "subject",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "player",
+																						"key": "value",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					}
+																				]
+																			},
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "",
+																				"key": "2",
+																				"type": "object",
+																				"meta": {},
+																				"children": [
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "has_ability",
+																						"key": "test",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "other",
+																						"key": "subject",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "instabuild",
+																						"key": "value",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															},
+															{
+																"open": false,
+																"comment": "",
+																"data": "minecraft:turn_brown",
+																"key": "event",
+																"type": "string",
+																"meta": {},
+																"children": []
+															}
+														]
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "true",
+														"key": "use_item",
+														"type": "boolean",
+														"meta": {},
+														"children": []
+													}
+												]
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "12",
+												"type": "object",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "",
+														"key": "on_interact",
+														"type": "object",
+														"meta": {},
+														"children": [
+															{
+																"open": false,
+																"comment": "",
+																"data": "",
+																"key": "filters",
+																"type": "object",
+																"meta": {},
+																"children": [
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "",
+																		"key": "all_of",
+																		"type": "array",
+																		"meta": {},
+																		"children": [
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "",
+																				"key": "0",
+																				"type": "object",
+																				"meta": {},
+																				"children": [
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "has_equipment",
+																						"key": "test",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "other",
+																						"key": "subject",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "hand",
+																						"key": "domain",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "dye:11",
+																						"key": "value",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					}
+																				]
+																			},
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "",
+																				"key": "1",
+																				"type": "object",
+																				"meta": {},
+																				"children": [
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "is_family",
+																						"key": "test",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "other",
+																						"key": "subject",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "player",
+																						"key": "value",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					}
+																				]
+																			},
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "",
+																				"key": "2",
+																				"type": "object",
+																				"meta": {},
+																				"children": [
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "has_ability",
+																						"key": "test",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "other",
+																						"key": "subject",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "instabuild",
+																						"key": "value",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															},
+															{
+																"open": false,
+																"comment": "",
+																"data": "minecraft:turn_yellow",
+																"key": "event",
+																"type": "string",
+																"meta": {},
+																"children": []
+															}
+														]
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "true",
+														"key": "use_item",
+														"type": "boolean",
+														"meta": {},
+														"children": []
+													}
+												]
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "13",
+												"type": "object",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "",
+														"key": "on_interact",
+														"type": "object",
+														"meta": {},
+														"children": [
+															{
+																"open": false,
+																"comment": "",
+																"data": "",
+																"key": "filters",
+																"type": "object",
+																"meta": {},
+																"children": [
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "",
+																		"key": "all_of",
+																		"type": "array",
+																		"meta": {},
+																		"children": [
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "",
+																				"key": "0",
+																				"type": "object",
+																				"meta": {},
+																				"children": [
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "has_equipment",
+																						"key": "test",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "other",
+																						"key": "subject",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "hand",
+																						"key": "domain",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "dye:10",
+																						"key": "value",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					}
+																				]
+																			},
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "",
+																				"key": "1",
+																				"type": "object",
+																				"meta": {},
+																				"children": [
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "is_family",
+																						"key": "test",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "other",
+																						"key": "subject",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "player",
+																						"key": "value",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					}
+																				]
+																			},
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "",
+																				"key": "2",
+																				"type": "object",
+																				"meta": {},
+																				"children": [
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "has_ability",
+																						"key": "test",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "other",
+																						"key": "subject",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "instabuild",
+																						"key": "value",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															},
+															{
+																"open": false,
+																"comment": "",
+																"data": "minecraft:turn_lime",
+																"key": "event",
+																"type": "string",
+																"meta": {},
+																"children": []
+															}
+														]
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "true",
+														"key": "use_item",
+														"type": "boolean",
+														"meta": {},
+														"children": []
+													}
+												]
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "14",
+												"type": "object",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "",
+														"key": "on_interact",
+														"type": "object",
+														"meta": {},
+														"children": [
+															{
+																"open": false,
+																"comment": "",
+																"data": "",
+																"key": "filters",
+																"type": "object",
+																"meta": {},
+																"children": [
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "",
+																		"key": "all_of",
+																		"type": "array",
+																		"meta": {},
+																		"children": [
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "",
+																				"key": "0",
+																				"type": "object",
+																				"meta": {},
+																				"children": [
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "has_equipment",
+																						"key": "test",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "other",
+																						"key": "subject",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "hand",
+																						"key": "domain",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "dye:2",
+																						"key": "value",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					}
+																				]
+																			},
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "",
+																				"key": "1",
+																				"type": "object",
+																				"meta": {},
+																				"children": [
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "is_family",
+																						"key": "test",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "other",
+																						"key": "subject",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "player",
+																						"key": "value",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					}
+																				]
+																			},
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "",
+																				"key": "2",
+																				"type": "object",
+																				"meta": {},
+																				"children": [
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "has_ability",
+																						"key": "test",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "other",
+																						"key": "subject",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "instabuild",
+																						"key": "value",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															},
+															{
+																"open": false,
+																"comment": "",
+																"data": "minecraft:turn_green",
+																"key": "event",
+																"type": "string",
+																"meta": {},
+																"children": []
+															}
+														]
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "true",
+														"key": "use_item",
+														"type": "boolean",
+														"meta": {},
+														"children": []
+													}
+												]
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "15",
+												"type": "object",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "",
+														"key": "on_interact",
+														"type": "object",
+														"meta": {},
+														"children": [
+															{
+																"open": false,
+																"comment": "",
+																"data": "",
+																"key": "filters",
+																"type": "object",
+																"meta": {},
+																"children": [
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "",
+																		"key": "all_of",
+																		"type": "array",
+																		"meta": {},
+																		"children": [
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "",
+																				"key": "0",
+																				"type": "object",
+																				"meta": {},
+																				"children": [
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "has_equipment",
+																						"key": "test",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "other",
+																						"key": "subject",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "hand",
+																						"key": "domain",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "dye:6",
+																						"key": "value",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					}
+																				]
+																			},
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "",
+																				"key": "1",
+																				"type": "object",
+																				"meta": {},
+																				"children": [
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "is_family",
+																						"key": "test",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "other",
+																						"key": "subject",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "player",
+																						"key": "value",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					}
+																				]
+																			},
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "",
+																				"key": "2",
+																				"type": "object",
+																				"meta": {},
+																				"children": [
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "has_ability",
+																						"key": "test",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "other",
+																						"key": "subject",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "instabuild",
+																						"key": "value",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															},
+															{
+																"open": false,
+																"comment": "",
+																"data": "minecraft:turn_cyan",
+																"key": "event",
+																"type": "string",
+																"meta": {},
+																"children": []
+															}
+														]
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "true",
+														"key": "use_item",
+														"type": "boolean",
+														"meta": {},
+														"children": []
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:physics",
+								"type": "object",
+								"meta": {},
+								"children": []
+							}
+						]
+					},
+					{
+						"open": false,
+						"comment": "",
+						"data": "",
+						"key": "events",
+						"type": "object",
+						"meta": {},
+						"children": [
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:entity_spawned",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "add",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "component_groups",
+												"type": "array",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "minecraft:shulker_undyed",
+														"key": "0",
+														"type": "string",
+														"meta": {},
+														"children": []
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:turn_purple",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "add",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "component_groups",
+												"type": "array",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "minecraft:shulker_purple",
+														"key": "0",
+														"type": "string",
+														"meta": {},
+														"children": []
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:turn_black",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "add",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "component_groups",
+												"type": "array",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "minecraft:shulker_black",
+														"key": "0",
+														"type": "string",
+														"meta": {},
+														"children": []
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:turn_blue",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "add",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "component_groups",
+												"type": "array",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "minecraft:shulker_blue",
+														"key": "0",
+														"type": "string",
+														"meta": {},
+														"children": []
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:turn_brown",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "add",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "component_groups",
+												"type": "array",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "minecraft:shulker_brown",
+														"key": "0",
+														"type": "string",
+														"meta": {},
+														"children": []
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:turn_cyan",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "add",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "component_groups",
+												"type": "array",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "minecraft:shulker_cyan",
+														"key": "0",
+														"type": "string",
+														"meta": {},
+														"children": []
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:turn_gray",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "add",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "component_groups",
+												"type": "array",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "minecraft:shulker_gray",
+														"key": "0",
+														"type": "string",
+														"meta": {},
+														"children": []
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:turn_green",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "add",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "component_groups",
+												"type": "array",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "minecraft:shulker_green",
+														"key": "0",
+														"type": "string",
+														"meta": {},
+														"children": []
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:turn_light_blue",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "add",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "component_groups",
+												"type": "array",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "minecraft:shulker_light_blue",
+														"key": "0",
+														"type": "string",
+														"meta": {},
+														"children": []
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:turn_lime",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "add",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "component_groups",
+												"type": "array",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "minecraft:shulker_lime",
+														"key": "0",
+														"type": "string",
+														"meta": {},
+														"children": []
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:turn_magenta",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "add",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "component_groups",
+												"type": "array",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "minecraft:shulker_magenta",
+														"key": "0",
+														"type": "string",
+														"meta": {},
+														"children": []
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:turn_orange",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "add",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "component_groups",
+												"type": "array",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "minecraft:shulker_orange",
+														"key": "0",
+														"type": "string",
+														"meta": {},
+														"children": []
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:turn_pink",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "add",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "component_groups",
+												"type": "array",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "minecraft:shulker_pink",
+														"key": "0",
+														"type": "string",
+														"meta": {},
+														"children": []
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:turn_red",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "add",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "component_groups",
+												"type": "array",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "minecraft:shulker_red",
+														"key": "0",
+														"type": "string",
+														"meta": {},
+														"children": []
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:turn_silver",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "add",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "component_groups",
+												"type": "array",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "minecraft:shulker_silver",
+														"key": "0",
+														"type": "string",
+														"meta": {},
+														"children": []
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:turn_white",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "add",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "component_groups",
+												"type": "array",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "minecraft:shulker_white",
+														"key": "0",
+														"type": "string",
+														"meta": {},
+														"children": []
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:turn_yellow",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "add",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "component_groups",
+												"type": "array",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "minecraft:shulker_yellow",
+														"key": "0",
+														"type": "string",
+														"meta": {},
+														"children": []
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

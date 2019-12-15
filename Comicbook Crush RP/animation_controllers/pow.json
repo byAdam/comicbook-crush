@@ -1,0 +1,36 @@
+//bridge-file-version: #41
+{
+	"animation_controllers": {
+		"controller.animation.hit_detector": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"on_hit": "query.is_stunned"
+						}
+					]
+				},
+				"on_hit": {
+					"transitions": [
+						{
+							"cooldown": "(1.0)"
+						}
+					],
+					"particle_effects": [
+						{
+							"effect": "pow"
+						}
+					]
+				},
+				"cooldown": {
+					"transitions": [
+						{
+							"default": "!query.is_stunned"
+						}
+					]
+				}
+			}
+		}
+	},
+	"format_version": "1.10.0"
+}

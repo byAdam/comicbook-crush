@@ -1,0 +1,36 @@
+//bridge-file-version: #20
+{
+	"bridge:tag": {
+		"description": {
+			"identifier": "player_hit"
+		},
+		"component_groups": {
+			"pow:on_hit": {
+				"minecraft:is_stunned": {},
+				"minecraft:timer": {
+					"time": 0,
+					"time_down_event": {
+						"event": "pow:on_hit_end"
+					}
+				}
+			}
+		},
+		"components": {},
+		"events": {
+			"pow:on_hit": {
+				"add": {
+					"component_groups": [
+						"pow:on_hit"
+					]
+				}
+			},
+			"pow:on_hit_end": {
+				"remove": {
+					"component_groups": [
+						"pow:on_hit"
+					]
+				}
+			}
+		}
+	}
+}
